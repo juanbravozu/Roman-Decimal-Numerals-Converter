@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    padding: 30vh 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+
+.numberResult {
+    color: gray;
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.numberInput {
+    width: 400px;
+    height: 25px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 50px;
+    border: solid black 1px;
+    margin: 20px 0;
+}
+
+.numberSubmit {
+    background-color: lightcoral;
+    border: none;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+    font-weight: 700;
+}
