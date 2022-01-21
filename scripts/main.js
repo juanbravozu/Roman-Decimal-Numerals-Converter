@@ -20,7 +20,8 @@ function handleLoad() {
     var result = document.querySelector('.numberResult');
 
     function handleClick() {
-        result.innerHTML = translateNumber(numberInput.value);
+        const val = numberInput.value;
+        result.innerHTML = isNaN(parseInt(val)) ? translateNumber(parseInt(val)): translateNumber(val);
     }
 
     button.addEventListener('click', handleClick);
