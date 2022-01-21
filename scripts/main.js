@@ -21,7 +21,7 @@ function handleLoad() {
 
     function handleClick() {
         const val = numberInput.value;
-        result.innerHTML = isNaN(parseInt(val)) ? translateNumber(parseInt(val)): translateNumber(val);
+        result.innerHTML = isNaN(parseInt(val)) ? translateNumber(val) : translateNumber(parseInt(val));
     }
 
     button.addEventListener('click', handleClick);
